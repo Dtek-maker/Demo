@@ -6,11 +6,11 @@ import pyodbc
 
 def db_conn():
     conn_str = (
-    "Driver={ODBC Driver 17 for SQL Server};"
-    "Server=MUKESH-JAYKAR;"
-    "Database=LINE2_REPORT_3;"
-    "UID=sa;"
-    "PWD=admin@123;"
+    f"Driver={ODBC Driver 17 for SQL Server};"
+    f"Server={os.getenv('MUKESH-JAYKAR')};"
+    f"Database={os.getenv('LINE2_REPORT_3')};"
+    f"UID={os.getenv('sa')};"
+    f"PWD={os.getenv('admin@123')};"
     )
    
     # conn = pyodbc.connect(conn_str)
