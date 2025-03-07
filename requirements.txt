@@ -72,8 +72,6 @@ pycparser==2.22
 pydeck==0.9.1
 PyGetWindow==0.0.9
 Pygments==2.19.1
-pylogix==1.0.5
-pylogix2==0.5.3
 pymdown-extensions==10.14
 PyMsgBox==1.0.9
 PyMySQL==1.1.1
